@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import './assets/icons/boxicons-2.0.9/css/boxicons.min.css'
+import './assets/css/index.css'
+import './assets/css/grid.css'
+
+import Layout from './components/layout/layout'
+
+document.title='Dashboard'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Layout />
   </React.StrictMode>,
   document.getElementById('root')
 );
